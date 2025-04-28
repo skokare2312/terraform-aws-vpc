@@ -13,10 +13,10 @@ variable "vpc" {
     private_subnet_required = optional(bool, false)
   })
   default = {
-    Name                    = "kulbhushanmayer"
+    Name                    = "sachin"
     Environment             = "Learning"
-    Project                 = "Thinknyx"
-    Owner                   = "Kulbhushan"
+    Project                 = "test"
+    Owner                   = "sachin"
     cidr_block              = "10.10.0.0/16"
     private_subnet_required = true
     public_subnet_required  = true
